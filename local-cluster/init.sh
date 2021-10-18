@@ -4,8 +4,7 @@ echo "Install Kubernetes for test"
 sudo snap install microk8s --classic
 
 echo "Create command shortcut"
-alias k=sudo microk8s.kubectl
-
+echo "alias k='sudo microk8s.kubectl'" >> ~/.bashrc
 echo "Wait 1"
 sleep 1
 
