@@ -7,6 +7,12 @@ cd local-cluster
 ./init.sh
 ```
 
+## Golang
+
+```
+cd golang
+./install.sh
+```
 
 ## Git Initialization
 
