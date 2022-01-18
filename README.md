@@ -1,5 +1,12 @@
 # Dev Setup for Shared Environment
 
+## Install all tools/dependencies
+
+Change username and email in `entry.sh`
+```
+./entry.sh install all
+```
+
 ## Create Local Cluster (Kubernetes)
 
 ```
