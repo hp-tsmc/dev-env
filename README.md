@@ -4,7 +4,7 @@
 
 Change username and email in `entry.sh`
 ```
-./entry.sh install all
+./entry.sh install-all
 ```
 
 ## Create Local Cluster (Kubernetes)
