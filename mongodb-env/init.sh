@@ -1,7 +1,5 @@
 #! /bin/bash
 
-
-
 sudo apt install -y gconf-service gconf-service-backend gconf2-common libgconf-2-4
 
 wget https://downloads.mongodb.com/compass/mongodb-compass_1.29.6_amd64.deb
