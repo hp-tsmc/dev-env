@@ -26,6 +26,10 @@ main(){
             git config --global user.name "hp-tsmc"
             git config --global user.email "hp.tsmc.it@gmail.com"
         ;;
+        git-config)
+            git config --global user.name "hp-tsmc"
+            git config --global user.email "hp.tsmc.it@gmail.com"
+        ;;
         *)
             echo "Unknown commands"
         ;;
