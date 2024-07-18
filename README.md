@@ -47,5 +47,11 @@ mv cmake-3.30.0-linux-x86_64 /home/kasm-user/
 echo 'export PATH=${PATH}:/home/kasm-user/cmake-3.30.0-linux-x86_64/bin' >> ~/.bashrc
 ```
 
+### C++ Env for VSCODE
+- C++ Extension
+  - Make sure to set cmakepath
+- Docker Extension
+
+
 ### TO Push Your Change
 [Generate your personal token for git](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to)
