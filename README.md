@@ -33,9 +33,18 @@ git config --global user.email "YOUR EMAIL"
 ```sh
 mkdir ~/.ssh
 sudo cp Personal_Data/git_rsa .ssh/
+```
+
+```sh
 ssh -T -i .ssh/git_rsa git@github.com
+```
+
+```sh
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/git_rsa
+```
+
+```sh
 git clone git@github.com:hp-tsmc/dev-env.git
 ```
 
