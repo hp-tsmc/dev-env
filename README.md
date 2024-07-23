@@ -46,6 +46,7 @@ ssh-add ~/.ssh/git_rsa
 
 ```sh
 git clone git@github.com:hp-tsmc/dev-env.git
+git clone git@github.com:hp-tsmc/cube.git
 ```
 
 ### Install CMake
