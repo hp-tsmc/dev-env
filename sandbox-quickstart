@@ -15,4 +15,4 @@ gh auth login
 gh auth setup-git
 
 git config --global user.name "hp"
-git config --global user.email "hp.tsmc.it@gmail.com"
+git config --global user.email "hpdevelop@users.noreply.github.com"
