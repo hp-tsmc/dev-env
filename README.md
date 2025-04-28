@@ -44,11 +44,6 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/git_rsa
 ```
 
-```sh
-git clone git@github.com:hp-tsmc/dev-env.git
-git clone git@github.com:hp-tsmc/cube.git
-```
-
 ### Install CMake
 ```sh
 wget https://github.com/Kitware/CMake/releases/download/v3.30.0/cmake-3.30.0-linux-x86_64.tar.gz
